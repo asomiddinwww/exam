@@ -93,7 +93,7 @@ header {
 .swiper-slide {
     background: white !important;
 }
-.box-slayt1 .p2 {
+.box-slayt1 .p22 {
     font-weight: 300;
     font-size: 14px;
     padding-bottom: 10px;
@@ -205,6 +205,52 @@ header {
         border-radius: 50px;
     }
 }
+@media (max-width: 500px) {
+    .p11 span {
+        display: none;
+    }
+    .p2, .p3 {
+        font-size: 13px;
+    }
+    .p2 span {
+        display: none;
+    }
+    .slayt1-left-text p{
+        font-size: 16px !important;
+    }
+    .slayt1-left-text h1{
+        font-size: 21px !important;
+        width: 220px !important;
+    }
+    .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        width: 100%;
+        margin-bottom: 120px !important;
+    }
+    .slayt1-right-text {
+        padding-right:15px;
+    }
+    .swiper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .swiper-wrapper {
+        gap: 1rem;
+    }
+    .slayt1 .slayt1-left-text {
+        padding: 4px 3px 100px 20px;
+        border-radius: 25px;
+    }
+    .box-top1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+    .p22 {
+        display: none;
+    }
+} 
 @media (max-width: 419px) {
     .header-top {
         display: none;

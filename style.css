@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    max-width: 1290px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.p1 {
+    padding-right: 10px;
+}
+.header-top p {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.header-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #B0B0B0;
+}
+.header-bottom .ul-item-header a{
+    color: #000000;
+    text-decoration: none;
+}
+.header-bottom .ul-item-header a:hover {
+    color: #7f7171;
+}
+.header-bottom .ul-item-header {
+    display: flex;
+    list-style-type: none;
+    font-size: 22px;
+    gap: 3rem;
+}
+.bars {
+    display: none;
+}
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 30px;
+}
+.slayt1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(./img/shutterstock_519952078\ 1.png);
+    border-radius: 25px;
+    display: flex;
+    background-size: cover;
+    text-align: start !important;
+    align-items: center;
+    justify-content: space-between;
+}
+.p11 img {
+    width: 30px !important;
+}
+.p3 img {
+    width: 30px !important;
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    width: 100%;
+    margin-bottom: 120px !important;
+}
+.slayt1-right-text {
+    padding-top: 80px;
+    padding-right: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-bottom: 85px;
+}
+.swiper-slide {
+    background: white !important;
+}
+.box-slayt1 .p2 {
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+.p1 img {
+    width: 30px;
+}
+.box-bot1 {
+    border-top: 1px solid #dedede;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.p3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.p11 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    gap: 1rem;
+}
+.box-top1 {
+    padding: 20px 25px;
+}
+.box-slayt1 {
+    background-color: white;
+    border-radius: 15px;
+}
+.bac {
+    width: 100%;
+    background-color: #00000052;
+    border-radius: 25px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slayt1 .slayt1-left-text {
+    padding: 40px 30px 100px 40px;
+    border-radius: 25px;
+}
+.slayt1 .slayt1-left-text h1 {
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 40px;
+    max-width: 600px;
+}
+.slayt1 .slayt1-left-text p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: white;
+    max-width: 520px;
+}
+.slayt1 .slayt1-left-text {
+    display: flex;  
+    flex-direction: column;
+    gap: 2rem;
+}
+@media (max-width: 1291px) {
+    header {
+        padding: 0 20px;
+    }
+    .header-bottom .ul-item-header {
+        font-size: 15px;
+        gap: 2rem;
+    }
+}
+@media (max-width: 946px){
+    .logo svg {
+        width: 150px;
+    }
+}
+@media (max-width: 871px){
+    .ul-item-header {
+        display: none !important;
+    }
+    .bars svg {
+        width: 22px;
+        height: 20px;
+    }
+    .bars {
+        display: block;
+        padding: 16px 16px 13px 16px;
+        background-color: #72c4ec;
+        border-radius: 50px;
+    }
+}
+@media (max-width: 419px) {
+    .header-top {
+        display: none;
+    }
+}

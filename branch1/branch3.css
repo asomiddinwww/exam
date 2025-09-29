@@ -150,6 +150,10 @@ header {
     background-color: white;
     border-radius: 25px;
 }
+.nick-namee {
+    padding-top: 40px;
+    text-align: center;
+}
 .bac {
     width: 100%;
     height: 400px;
@@ -177,10 +181,36 @@ header {
     justify-content: end;
     padding-bottom: 30px;
 }
+.f {
+    color: #667085;
+}
+.f .f1 {
+    text-align: start;
+}
+.df {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+table th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+table tr {
+    padding-top: 20px;
+    background-color: #f7f9fa;
+    padding-bottom: 20px;
+}
+.df .pl {
+    padding: 30px;
+    border-radius: 50px;
+    background-color: #0093DD4D;
+}
 .slayt1 {
     width: 100%;
     height: 400px;
-    background-image: url(./branch1-img/Mask\ group\ \(10\).png);
+    background-image: url(./branch1-img/Mask\ group\ \(12\).png) !important;
     border-radius: 25px;
     display: flex;
     background-size: cover;
@@ -602,6 +632,9 @@ footer {
     }
     .right-left {
         grid-template-columns:  auto;
+    }
+    .pl {
+        display: none;
     }
     .right-right {
         flex-direction: column;
